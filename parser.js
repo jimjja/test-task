@@ -9,10 +9,9 @@ const constants = {
 };
 
 const configFileLocation = (name) => {
-  return;
-  {
-    filename: path.join(__dirname, `${name}technologies.csv`);
-  }
+  return {
+    filename: path.join(__dirname, `${name}technologies.csv`),
+  };
 };
 
 const getData = (name) =>
